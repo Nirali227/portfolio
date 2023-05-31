@@ -18,7 +18,7 @@ def load_lottieurl(url):
 
 lottie_intro = load_lottieurl("https://assets1.lottiefiles.com/packages/lf20_sy6mqjxk.json")
 lottie_footer = load_lottieurl("https://assets10.lottiefiles.com/packages/lf20_wlSAOz.json")
-with open("style.css") as f:
+with open("content/style.css") as f:
     st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
 
 st.markdown("""<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
