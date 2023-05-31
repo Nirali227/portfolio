@@ -142,7 +142,7 @@ with st.container():
     with col1:
         st.write(' ')
         st.write(' ')
-        im2 = st.image(Image.open("content/images/images/10.jpg"))
+        im2 = st.image(Image.open("content/images/10.jpg"))
         st.write(' ')
         st.write(' ')  
     with col2:
@@ -170,7 +170,7 @@ with st.container():
     with col1:
         st.write(' ')
         st.write(' ')
-        im2 = st.image(Image.open("content/images/images/10.jpg"))
+        im2 = st.image(Image.open("content/images/10.jpg"))
         st.write(' ')
         st.write(' ') 
     with col2:
@@ -198,7 +198,7 @@ with st.container():
     with col1:
         st.write(' ')
         st.write(' ')
-        im2 = st.image(Image.open("content/images/images/10.jpg"))
+        im2 = st.image(Image.open("content/images/10.jpg"))
         st.write(' ')
         st.write(' ')  
     with col2:
